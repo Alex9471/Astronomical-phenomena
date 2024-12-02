@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Астрономические явления в истории — откройте для себя захватывающий мир небесных событий, которые изменили ход человеческой истории.">
+    <title>Астрономические явления в истории</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Астрономия в Истории</div>
+            <ul class="nav-links">
+                <li><a href="about_project">О проекте</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Откройте для себя астрономические явления, которые изменили историю</h1>
+            <p>Познакомьтесь с самыми яркими и загадочными событиями в небесах, которые влияли на культуру, науку и философию человечества.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О проекте</h2>
+            <p>Этот проект посвящён астрономическим явлениям, которые оказывали глубокое влияние на ход истории. Мы исследуем солнечные и лунные затмения, кометы, яркие планетные соединения и другие феномены, которые привлекали внимание человечества на протяжении веков.</p>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2>Знаменательные астрономические явления</h2>
+            <div class="event-cards">
+                <div class="event-card">
+                    <img src="https://pikaso.cdnpk.net/private/production/1189537657/render.jpeg?token=exp=1762300800~hmac=68546f9acdc7efa214fa1dad19c04022671b0c5e0fe19e1c8371576230479e1d">
+                    <h3>Солнечные и лунные затмения</h3>
+                    <p>Затмения оказывали огромное влияние на мировоззрение народов, часто воспринимаясь как предвестие важных событий.</p>
+                    <a href="blackout" class="btn-secondary">Узнать больше</a>
+                </div>
+                <div class="event-card">
+                    <img src="https://pikaso.cdnpk.net/private/production/1189546134/render.jpeg?token=exp=1762300800~hmac=cad0eee499c66d51a54af02f8c3432754c3168664818478cb03bcb9d7c5cf005">
+                    <h3>Кометы и их влияние</h3>
+                    <p>Яркие кометы всегда привлекали внимание людей. Эти небесные гости стали символами судьбы и пророчеств.</p>
+                    <a href="comets" class="btn-secondary">Узнать больше</a>
+                </div>
+                <div class="event-card">
+                    <img src="https://pikaso.cdnpk.net/private/production/1191798290/render.jpeg?token=exp=1762300800~hmac=ad3f11b3d6d600142c853f96fc43554b6c41263955e9a1cf1e9aa2d70a741b92">
+                    <h3>Полярное сияние</h3>
+                    <p>Полярное сияние — это свечение верхних слоёв атмосферы, возникающее вследствие взаимодействия магнитосферы планеты с заряженными частицами солнечного ветра.</p>
+                    <a href="polar_lights" class="btn-secondary">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Связаться с нами</h2>
+            <p>Если у вас есть вопросы или вы хотите поделиться своими наблюдениями, напишите нам!</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш Email" required>
+                <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+                <button type="submit" class="btn-primary">Отправить сообщение</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Астрономия в Истории. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <style>
+        * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
+
+       body {
+           font-family: 'Arial', sans-serif;
+           background-color: #1d1d1d;
+           color: white;
+       }
+
+       header {
+           background-color: #ffa500;
+           padding: 20px 0;
+       }
+
+       nav .logo {
+           font-size: 2rem;
+           font-weight: bold;
+           text-align: center;
+       }
+
+       nav ul {
+           display: flex;
+           justify-content: center;
+           gap: 20px;
+           list-style-type: none;
+       }
+
+       nav ul li {
+           font-size: 1.2rem;
+       }
+
+       nav ul li a {
+           text-decoration: none;
+           color: #f1f1f1;
+           padding: 5px 10px;
+           transition: background-color 0.3s;
+       }
+
+       nav ul li a:hover {
+           background-color: #ff5733;
+           border-radius: 5px;
+       }
+
+       .hero {
+           background: url('images/hero.jpg') no-repeat center center/cover;
+           color: white;
+           text-align: center;
+           padding: 100px 0;
+       }
+
+       .hero h1 {
+           font-size: 3rem;
+           margin-bottom: 20px;
+       }
+
+       .hero p {
+           font-size: 1.2rem;
+           margin-bottom: 30px;
+       }
+
+       .btn-primary {
+           padding: 10px 20px;
+           background-color: #ff5733;
+           color: white;
+           text-decoration: none;
+           font-size: 1.1rem;
+           border-radius: 5px;
+           transition: background-color 0.3s;
+       }
+
+       .btn-primary:hover {
+           background-color: #e04f2d;
+       }
+
+       .about, .events, .contact {
+           padding: 60px 0;
+           background-color: #121212;
+       }
+
+       .container {
+           width: 80%;
+           margin: 0 auto;
+       }
+
+       h2 {
+           font-size: 2.5rem;
+           margin-bottom: 20px;
+           text-align: center;
+       }
+
+       p {
+           font-size: 1.1rem;
+           text-align: center;
+           margin-bottom: 40px;
+       }
+
+       .event-cards {
+           display: flex;
+           justify-content: space-between;
+           gap: 20px;
+       }
+
+       .event-card {
+           background-color: #1f1f1f;
+           border-radius: 10px;
+           padding: 20px;
+           width: 30%;
+           text-align: center;
+           transition: transform 0.3s;
+       }
+
+       .event-card:hover {
+           transform: translateY(-10px);
+       }
+
+       .event-card img {
+           width: 100%;
+           height: auto;
+           border-radius: 10px;
+           margin-bottom: 15px;
+       }
+
+       .event-card h3 {
+           font-size: 1.5rem;
+           margin-bottom: 15px;
+       }
+
+       .event-card p {
+           font-size: 1rem;
+           margin-bottom: 20px;
+       }
+
+       .event-card .btn-secondary {
+           padding: 10px 20px;
+           background-color: #444;
+           color: white;
+           text-decoration: none;
+           font-size: 1rem;
+           border-radius: 5px;
+           transition: background-color 0.3s;
+       }
+
+       .event-card .btn-secondary:hover {
+           background-color: #333;
+       }
+
+       .contact form {
+           display: flex;
+           flex-direction: column;
+           gap: 20px;
+       }
+
+       .contact input, .contact textarea {
+           padding: 10px;
+           font-size: 1rem;
+           border: 1px solid #444;
+           border-radius: 5px;
+           background-color: #222;
+           color: white;
+       }
+
+       .contact button {
+           padding: 10px 20px;
+           background-color: #ff5733;
+           color: white;
+           font-size: 1.1rem;
+           border-radius: 5px;
+           border: none;
+           cursor: pointer;
+       }
+
+       .contact button:hover {
+           background-color: #e04f2d;
+       }
+
+       footer {
+           background-color: #0d0d0d;
+           padding: 20px 0;
+           text-align: center;
+       }
+
+       footer p {
+           font-size: 1rem;
+           color: #888;
+       }
+    </style>
+
+</body>
+</html>

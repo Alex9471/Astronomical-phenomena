@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О проекте</title>
+    <style>
+        /* Стиль для всей страницы */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #000; /* Чёрный фон */
+            color: #fff; /* Белый текст */
+            line-height: 1.6;
+        }
+
+        /* Заголовок страницы */
+        header {
+            background-color: #222; /* Тёмно-серый фон для хедера */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ffa500; /* Оранжевый текст */
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        /* Основной контент */
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        main h2 {
+            color: #ffa500; /* Оранжевые подзаголовки */
+            margin-bottom: 15px;
+        }
+
+        main p {
+            margin-bottom: 20px;
+        }
+
+        /* Список */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        ul li:before {
+            content: "★";
+            color: #ffa500; /* Оранжевая звезда */
+            position: absolute;
+            left: 0;
+        }
+
+        /* Подвал */
+        footer {
+            background-color: #222;
+            color: #aaa; /* Серый текст в подвале */
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffa500; /* Оранжевые ссылки */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .back-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #000; /* Чёрный текст */
+            background-color: #ffffff; /* Белый фон */
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #cccccc; /* Светло-серый при наведении */
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>О проекте</h1>
+    </header>
+    <main>
+        <h2>Цель проекта</h2>
+        <p>Наш проект посвящён изучению астрономических явлений, которые оставили след в истории человечества. Мы раскрываем влияние затмений, появления комет, звездопадов и других небесных явлений на культуру, науку и мифологию.</p>
+
+        <h2>Ключевые темы</h2>
+        <ul>
+            <li>Исторические солнечные и лунные затмения</li>
+            <li>Роль комет в древних пророчествах</li>
+            <li>Полярные сияния, из-за чего происходят</li>
+        </ul>
+
+        <p>Больше информации вы можете найти на нашем сайте.</p>
+        <a href="index" class="back-button">Назад</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 Астрономические явления. Все права защищены. <a href="https://example.com">Политика конфиденциальности</a></p>
+    </footer>
+</body>
+</html>

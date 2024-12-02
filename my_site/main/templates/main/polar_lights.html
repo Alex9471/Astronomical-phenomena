@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полярное сияние</title>
+    <style>
+        /* Общий стиль страницы */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('https://pikaso.cdnpk.net/private/production/1196744426/render.jpeg?token=exp=1762300800~hmac=8e31acf92ccd5922a1a5f77000eec6b8b6e5a91bc07b4c92c9671032a4a271f8') no-repeat center center fixed; /* Фоновая картинка */
+            background-size: cover; /* Масштабирование картинки */
+            color: #fff; /* Белый текст */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        /* Тёмный полупрозрачный слой для читаемости текста */
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный чёрный */
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 800px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Тень для объёма */
+        }
+
+        /* Заголовок */
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        /* Основной текст */
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        /* Кнопка "Назад" */
+        .back-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #000; /* Чёрный текст */
+            background-color: #ffffff; /* Белый фон */
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #cccccc; /* Светло-серый при наведении */
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>Полярное сияние</h1>
+        <p>
+            Полярное сияние — одно из самых завораживающих природных явлений. Оно возникает,
+            когда частицы солнечного ветра взаимодействуют с магнитным полем Земли, вызывая
+            свечение в верхних слоях атмосферы.
+        </p>
+        <p>
+            Сияние чаще всего наблюдается в районах вокруг полюсов Земли. Цвета, такие как зелёный,
+            розовый и фиолетовый, создаются за счёт взаимодействия солнечных частиц с различными
+            газами в атмосфере.
+        </p>
+        <p>Узнайте больше: <a href="https://www.roscosmos.ru/23994/">посетите сайт Роскосмоса</a>.</p>
+        <a href="index" class="back-button">Назад</a>
+    </div>
+</body>
+</html>

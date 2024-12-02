@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Солнечные затмения</title>
+    <style>
+        /* Общий стиль страницы */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #000; /* Чёрный фон */
+            color: #fff; /* Белый текст */
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Заголовок страницы */
+        header {
+            background: linear-gradient(90deg, #ffa500, #ff7f00); /* Оранжевый градиент */
+            color: #000; /* Чёрный текст */
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        /* Основной контент */
+        main {
+            flex: 1;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        main h2 {
+            color: #ffa500; /* Оранжевые подзаголовки */
+            margin-bottom: 15px;
+        }
+
+        main p {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        ul li {
+            background: rgba(255, 165, 0, 0.1); /* Полупрозрачный оранжевый фон */
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #ffa500;
+            text-align: left;
+        }
+
+        /* Кнопка "Назад" */
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #000; /* Чёрный текст */
+            background-color: #ffa500; /* Оранжевый фон */
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .back-button:hover {
+            background-color: #ff7f00; /* Более тёмный оттенок при наведении */
+            transform: scale(1.05);
+        }
+
+        /* Подвал */
+        footer {
+            background-color: #222;
+            color: #aaa; /* Серый текст */
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer a {
+            color: #ffa500; /* Оранжевые ссылки */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Солнечные затмения</h1>
+    </header>
+    <main>
+        <h2>Что такое солнечное затмение?</h2>
+        <p>Солнечное затмение — это явление, при котором Луна проходит между Землёй и Солнцем, временно блокируя солнечный свет.</p>
+
+        <h2>Типы солнечных затмений</h2>
+        <ul>
+            <li><strong>Полное затмение:</strong> Луна полностью закрывает Солнце, создавая эффект полной тьмы.</li>
+            <li><strong>Кольцевое затмение:</strong> Луна закрывает центр Солнца, оставляя видимым яркое кольцо.</li>
+            <li><strong>Частичное затмение:</strong> Луна закрывает только часть солнечного диска.</li>
+        </ul>
+
+        <p>Узнайте больше: <a href="https://www.roscosmos.ru/33414/">посетите сайт Роскосмоса</a>.</p>
+
+        <!-- Кнопка "Назад" -->
+        <a href="index" class="back-button">Назад</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 Астрономические явления. Все права защищены. <a href="https://example.com">Политика конфиденциальности</a></p>
+    </footer>
+</body>
+</html>
